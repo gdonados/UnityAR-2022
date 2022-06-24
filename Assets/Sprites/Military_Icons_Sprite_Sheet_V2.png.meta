@@ -1,0 +1,1222 @@
+fileFormatVersion: 2
+guid: 7c1d5c6d7feb73343b7cab88b65586a9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3827348819366274579
+    second: Military_Icons_Sprite_Sheet_V2_0
+  - first:
+      213: -1474594198546874407
+    second: Military_Icons_Sprite_Sheet_V2_1
+  - first:
+      213: 1729608004249096105
+    second: Military_Icons_Sprite_Sheet_V2_2
+  - first:
+      213: -45498310017573654
+    second: Military_Icons_Sprite_Sheet_V2_3
+  - first:
+      213: -320506879190090077
+    second: Military_Icons_Sprite_Sheet_V2_4
+  - first:
+      213: -6546180152660534937
+    second: Military_Icons_Sprite_Sheet_V2_5
+  - first:
+      213: -5807249736262738013
+    second: Military_Icons_Sprite_Sheet_V2_6
+  - first:
+      213: -6823477832296089536
+    second: Military_Icons_Sprite_Sheet_V2_7
+  - first:
+      213: 6854653246097754450
+    second: Military_Icons_Sprite_Sheet_V2_8
+  - first:
+      213: 8413785509029734075
+    second: Military_Icons_Sprite_Sheet_V2_9
+  - first:
+      213: 7468196968694430591
+    second: Military_Icons_Sprite_Sheet_V2_10
+  - first:
+      213: -2114089985832933946
+    second: Military_Icons_Sprite_Sheet_V2_11
+  - first:
+      213: 8817255063002960424
+    second: Military_Icons_Sprite_Sheet_V2_12
+  - first:
+      213: 3058378529319950452
+    second: Military_Icons_Sprite_Sheet_V2_13
+  - first:
+      213: -6621491827529292462
+    second: Military_Icons_Sprite_Sheet_V2_14
+  - first:
+      213: 788811292623677975
+    second: Military_Icons_Sprite_Sheet_V2_15
+  - first:
+      213: 694491648815915404
+    second: Military_Icons_Sprite_Sheet_V2_16
+  - first:
+      213: -8240296632534464955
+    second: Military_Icons_Sprite_Sheet_V2_17
+  - first:
+      213: 1793317044708969749
+    second: Military_Icons_Sprite_Sheet_V2_18
+  - first:
+      213: -156440734600264166
+    second: Military_Icons_Sprite_Sheet_V2_19
+  - first:
+      213: -7035056752812551270
+    second: Military_Icons_Sprite_Sheet_V2_20
+  - first:
+      213: -4423815379333833378
+    second: Military_Icons_Sprite_Sheet_V2_21
+  - first:
+      213: -7826185669105571384
+    second: Military_Icons_Sprite_Sheet_V2_22
+  - first:
+      213: -8766548713240707755
+    second: Military_Icons_Sprite_Sheet_V2_23
+  - first:
+      213: 4886558781111490747
+    second: Military_Icons_Sprite_Sheet_V2_24
+  - first:
+      213: -7597763406198227790
+    second: Military_Icons_Sprite_Sheet_V2_25
+  - first:
+      213: 7072713736573651144
+    second: Military_Icons_Sprite_Sheet_V2_26
+  - first:
+      213: 2841198689978525714
+    second: Military_Icons_Sprite_Sheet_V2_27
+  - first:
+      213: -3125744207950644255
+    second: Military_Icons_Sprite_Sheet_V2_28
+  - first:
+      213: -3936476359957020876
+    second: Military_Icons_Sprite_Sheet_V2_29
+  - first:
+      213: -2464759005136508109
+    second: Military_Icons_Sprite_Sheet_V2_30
+  - first:
+      213: -917795415189056737
+    second: Military_Icons_Sprite_Sheet_V2_31
+  - first:
+      213: 4866583139620179584
+    second: Military_Icons_Sprite_Sheet_V2_32
+  - first:
+      213: -5565291023964277654
+    second: Military_Icons_Sprite_Sheet_V2_33
+  - first:
+      213: 393209290864306879
+    second: Military_Icons_Sprite_Sheet_V2_34
+  - first:
+      213: 7022969816394220727
+    second: Military_Icons_Sprite_Sheet_V2_35
+  - first:
+      213: 7441113879875960889
+    second: Military_Icons_Sprite_Sheet_V2_36
+  - first:
+      213: -8559252127518561853
+    second: Military_Icons_Sprite_Sheet_V2_37
+  - first:
+      213: -2237501429976281595
+    second: Military_Icons_Sprite_Sheet_V2_38
+  - first:
+      213: 1610851796211840049
+    second: Military_Icons_Sprite_Sheet_V2_39
+  - first:
+      213: -1516624294156110146
+    second: Military_Icons_Sprite_Sheet_V2_40
+  - first:
+      213: -3349273316538669695
+    second: Military_Icons_Sprite_Sheet_V2_41
+  - first:
+      213: 4545595446777589940
+    second: Military_Icons_Sprite_Sheet_V2_42
+  - first:
+      213: -100925027622827944
+    second: Military_Icons_Sprite_Sheet_V2_43
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Military_Icons_Sprite_Sheet_V2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1000
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31666d919797d1530800000000000000
+      internalID: 3827348819366274579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military_Icons_Sprite_Sheet_V2_1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1000
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dff2cf9360398be0800000000000000
+      internalID: -1474594198546874407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military_Icons_Sprite_Sheet_V2_2
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1000
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9af80f5e05dc00810800000000000000
+      internalID: 1729608004249096105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military_Icons_Sprite_Sheet_V2_3
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1000
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aec9581378b5e5ff0800000000000000
+      internalID: -45498310017573654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military_Icons_Sprite_Sheet_V2_4
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1000
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ae3ec501b45d8bf0800000000000000
+      internalID: -320506879190090077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military_Icons_Sprite_Sheet_V2_5
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1000
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 769d4f495db4725a0800000000000000
+      internalID: -6546180152660534937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military_Icons_Sprite_Sheet_V2_6
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1000
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3af141c0221886fa0800000000000000
+      internalID: -5807249736262738013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military_Icons_Sprite_Sheet_V2_7
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1000
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0483d3950132e41a0800000000000000
+      internalID: -6823477832296089536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military_Icons_Sprite_Sheet_V2_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25982205fce902f50800000000000000
+      internalID: 6854653246097754450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military_Icons_Sprite_Sheet_V2_9
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 800
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb6eb02a755c3c470800000000000000
+      internalID: 8413785509029734075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military_Icons_Sprite_Sheet_V2_10
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 800
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7b3ea7239d54a760800000000000000
+      internalID: 7468196968694430591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military_Icons_Sprite_Sheet_V2_11
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 800
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c5a73bdb5e39a2e0800000000000000
+      internalID: -2114089985832933946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military_Icons_Sprite_Sheet_V2_12
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 800
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8225e4493ce2d5a70800000000000000
+      internalID: 8817255063002960424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military_Icons_Sprite_Sheet_V2_13
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 800
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4781cc4811b817a20800000000000000
+      internalID: 3058378529319950452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military_Icons_Sprite_Sheet_V2_14
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 800
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 255e6f8d34cbb14a0800000000000000
+      internalID: -6621491827529292462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military_Icons_Sprite_Sheet_V2_15
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 800
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71aa6abf0bb62fa00800000000000000
+      internalID: 788811292623677975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military_Icons_Sprite_Sheet_V2_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c81e52b997453a900800000000000000
+      internalID: 694491648815915404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military_Icons_Sprite_Sheet_V2_17
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 600
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5468fe52fd594ad80800000000000000
+      internalID: -8240296632534464955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military_Icons_Sprite_Sheet_V2_18
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 600
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51d088bc95423e810800000000000000
+      internalID: 1793317044708969749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military_Icons_Sprite_Sheet_V2_19
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 600
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1600c11bf534ddf0800000000000000
+      internalID: -156440734600264166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military_Icons_Sprite_Sheet_V2_20
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 600
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9315e918257e5e90800000000000000
+      internalID: -7035056752812551270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military_Icons_Sprite_Sheet_V2_21
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 600
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5d95e2d9537b92c0800000000000000
+      internalID: -4423815379333833378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military_Icons_Sprite_Sheet_V2_22
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 600
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c9a5be499dc36390800000000000000
+      internalID: -7826185669105571384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military_Icons_Sprite_Sheet_V2_23
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 600
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55d31297466f65680800000000000000
+      internalID: -8766548713240707755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military_Icons_Sprite_Sheet_V2_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb85732425b80d340800000000000000
+      internalID: 4886558781111490747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military_Icons_Sprite_Sheet_V2_25
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bcb71ecf625f8690800000000000000
+      internalID: -7597763406198227790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military_Icons_Sprite_Sheet_V2_26
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c88f7aaba3572260800000000000000
+      internalID: 7072713736573651144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military_Icons_Sprite_Sheet_V2_27
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 218a97cb727fd6720800000000000000
+      internalID: 2841198689978525714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military_Icons_Sprite_Sheet_V2_28
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ebfd5a24302f94d0800000000000000
+      internalID: -3125744207950644255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military_Icons_Sprite_Sheet_V2_29
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43ff9026b93de59c0800000000000000
+      internalID: -3936476359957020876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military_Icons_Sprite_Sheet_V2_30
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33ba4e16eba6bcdd0800000000000000
+      internalID: -2464759005136508109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military_Icons_Sprite_Sheet_V2_31
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f139c2dbee55343f0800000000000000
+      internalID: -917795415189056737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military_Icons_Sprite_Sheet_V2_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08e47fac493998340800000000000000
+      internalID: 4866583139620179584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military_Icons_Sprite_Sheet_V2_33
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6470f4cc4d14c2b0800000000000000
+      internalID: -5565291023964277654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military_Icons_Sprite_Sheet_V2_34
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbaa95844c5f47500800000000000000
+      internalID: 393209290864306879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military_Icons_Sprite_Sheet_V2_35
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b4c776b6d9967160800000000000000
+      internalID: 7022969816394220727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military_Icons_Sprite_Sheet_V2_36
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9304c3726a5244760800000000000000
+      internalID: 7441113879875960889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military_Icons_Sprite_Sheet_V2_37
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c9ef34f98d673980800000000000000
+      internalID: -8559252127518561853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military_Icons_Sprite_Sheet_V2_38
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50ec5d1ed4cc2f0e0800000000000000
+      internalID: -2237501429976281595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military_Icons_Sprite_Sheet_V2_39
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 134b10b8c25ea5610800000000000000
+      internalID: 1610851796211840049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military_Icons_Sprite_Sheet_V2_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb6f8196d3ed3fae0800000000000000
+      internalID: -1516624294156110146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military_Icons_Sprite_Sheet_V2_41
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 185a400f9adf481d0800000000000000
+      internalID: -3349273316538669695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military_Icons_Sprite_Sheet_V2_42
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b0bfc9a9f2351f30800000000000000
+      internalID: 4545595446777589940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military_Icons_Sprite_Sheet_V2_43
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 858489bd831799ef0800000000000000
+      internalID: -100925027622827944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Military_Icons_Sprite_Sheet_V2_38: -2237501429976281595
+      Military_Icons_Sprite_Sheet_V2_2: 1729608004249096105
+      Military_Icons_Sprite_Sheet_V2_23: -8766548713240707755
+      Military_Icons_Sprite_Sheet_V2_25: -7597763406198227790
+      Military_Icons_Sprite_Sheet_V2_1: -1474594198546874407
+      Military_Icons_Sprite_Sheet_V2_26: 7072713736573651144
+      Military_Icons_Sprite_Sheet_V2_39: 1610851796211840049
+      Military_Icons_Sprite_Sheet_V2_42: 4545595446777589940
+      Military_Icons_Sprite_Sheet_V2_7: -6823477832296089536
+      Military_Icons_Sprite_Sheet_V2_20: -7035056752812551270
+      Military_Icons_Sprite_Sheet_V2_22: -7826185669105571384
+      Military_Icons_Sprite_Sheet_V2_27: 2841198689978525714
+      Military_Icons_Sprite_Sheet_V2_19: -156440734600264166
+      Military_Icons_Sprite_Sheet_V2_29: -3936476359957020876
+      Military_Icons_Sprite_Sheet_V2_31: -917795415189056737
+      Military_Icons_Sprite_Sheet_V2_0: 3827348819366274579
+      Military_Icons_Sprite_Sheet_V2_16: 694491648815915404
+      Military_Icons_Sprite_Sheet_V2_33: -5565291023964277654
+      Military_Icons_Sprite_Sheet_V2_35: 7022969816394220727
+      Military_Icons_Sprite_Sheet_V2_21: -4423815379333833378
+      Military_Icons_Sprite_Sheet_V2_43: -100925027622827944
+      Military_Icons_Sprite_Sheet_V2_36: 7441113879875960889
+      Military_Icons_Sprite_Sheet_V2_8: 6854653246097754450
+      Military_Icons_Sprite_Sheet_V2_40: -1516624294156110146
+      Military_Icons_Sprite_Sheet_V2_10: 7468196968694430591
+      Military_Icons_Sprite_Sheet_V2_4: -320506879190090077
+      Military_Icons_Sprite_Sheet_V2_13: 3058378529319950452
+      Military_Icons_Sprite_Sheet_V2_37: -8559252127518561853
+      Military_Icons_Sprite_Sheet_V2_6: -5807249736262738013
+      Military_Icons_Sprite_Sheet_V2_41: -3349273316538669695
+      Military_Icons_Sprite_Sheet_V2_24: 4886558781111490747
+      Military_Icons_Sprite_Sheet_V2_28: -3125744207950644255
+      Military_Icons_Sprite_Sheet_V2_11: -2114089985832933946
+      Military_Icons_Sprite_Sheet_V2_12: 8817255063002960424
+      Military_Icons_Sprite_Sheet_V2_30: -2464759005136508109
+      Military_Icons_Sprite_Sheet_V2_34: 393209290864306879
+      Military_Icons_Sprite_Sheet_V2_5: -6546180152660534937
+      Military_Icons_Sprite_Sheet_V2_18: 1793317044708969749
+      Military_Icons_Sprite_Sheet_V2_9: 8413785509029734075
+      Military_Icons_Sprite_Sheet_V2_14: -6621491827529292462
+      Military_Icons_Sprite_Sheet_V2_3: -45498310017573654
+      Military_Icons_Sprite_Sheet_V2_15: 788811292623677975
+      Military_Icons_Sprite_Sheet_V2_32: 4866583139620179584
+      Military_Icons_Sprite_Sheet_V2_17: -8240296632534464955
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -15,8 +15,6 @@ public class MQTTSendImage : MonoBehaviour
     public MQTTReceiveHR MQTTHR;
     public TrackedObjectManager TOM;
 
-    public Camera imageCaptureCam;
-    public int width, height;
     String IP;
     MqttFactory factory;
     public IMqttClient mqttClient;
@@ -112,17 +110,17 @@ public class MQTTSendImage : MonoBehaviour
                     {
                         Debug.Log(datum);
                     }*/
-                    //Grows from bottom left. Index 2, 5, 6, and 7 must be sent. (Left, Bottom, Width, Height)
+                    //Grows from bottom left. Index 2, 5, 6, 7, 1 will be sent. (Left, Bottom, Width, Height, ClassID)
                     //Debug.Log(BBData[3].Split(":")[1]);//Left
                     //Debug.Log(BBData[6].Split(":")[1]);//Bottom
                     //Debug.Log(BBData[7].Split(":")[1]);//Width
                     //Debug.Log(BBData[8].Split(":")[1]);//Height
 
-                    TOM.setBoundingBox(BBData[3].Split(":")[1], BBData[6].Split(":")[1], BBData[7].Split(":")[1], BBData[8].Split(":")[1]);
+                    TOM.setBoundingBox(BBData[3].Split(":")[1], BBData[6].Split(":")[1], BBData[7].Split(":")[1], BBData[8].Split(":")[1], BBData[1].Split(":")[1]);
                     //semaphore.Set();
                     /* Raw message string.
                      * <jetson.inference.Detection object> 0th index
-                    -- ClassID: 3
+                    -- ClassID: 3 //1 is person
                     -- Confidence: 0.581882
                     -- Left: 1671.0
                     -- Top: 435.0
@@ -144,38 +142,46 @@ public class MQTTSendImage : MonoBehaviour
     void Update()
     {
         semaphore.WaitOne((int)receiveTimeout.TotalMilliseconds, true);
-
+        
         //Debug.Log(newData);
         if (data == null)
         {
             //Debug.Log("null data");
         }
-        if (delay == 100)
+        if (delay == 120)
         {
+            /*String bottom = UnityEngine.Random.Range(0f, 720f).ToString();
+            String left = UnityEngine.Random.Range(0f, 1080f).ToString();
+            String width = UnityEngine.Random.Range(100f, 200f).ToString();
+            String height = UnityEngine.Random.Range(100f, 200f).ToString();
+            //String label = "1";
+
+
+            TOM.setBoundingBox(bottom, left, width, height, ((int)Time.time%2).ToString());*/
             //StartCoroutine(CaptureImage());
             delay = 0;
         }
         delay++;
     }
 
-    IEnumerator CaptureImage() //Capture image from camera and set bytes to imageToSend
+    public IEnumerator CaptureImage(Texture2D inTexture2D, float width, float height) //Capture image from camera and set bytes to imageToSend
     {
         //var imagePath = @"C:\Users\grant\Documents\College\Grad\MLImages";
 
-        RenderTexture rt = new RenderTexture(width, height, 24);
-        imageCaptureCam.targetTexture = rt;
-        Texture2D tex = new Texture2D(width, width, TextureFormat.RGB24, false);
+        //RenderTexture rt = new RenderTexture(width, height, 24);
+        //imageCaptureCam.targetTexture = rt;
+        //Texture2D tex = new Texture2D(width, height, TextureFormat.RGB24, false);
 
         yield return new WaitForEndOfFrame();//Make sure the frame has ended before capturing the texture;
 
-        imageCaptureCam.Render();
-        RenderTexture.active = rt;
+        //imageCaptureCam.Render();
+        //RenderTexture.active = rt;
 
-        tex.ReadPixels(new Rect(0, 0, width, height), 0, 0);
-        tex.Apply();
+        //inTexture2D.ReadPixels(new Rect(0, 0, width, height), 0, 0);
+        inTexture2D.Apply();
 
         byte[] bytes; //these need to be sent
-        bytes = tex.EncodeToPNG();
+        bytes = inTexture2D.EncodeToPNG();
 
         imageToSend = bytes;
         //send these bytes
@@ -202,7 +208,7 @@ public class MQTTSendImage : MonoBehaviour
     }
 
 }
-
+/*
 [InitializeOnLoad]
 public static class PlayStateNotifier
 {
@@ -220,7 +226,7 @@ public static class PlayStateNotifier
             Debug.Log("Exiting play mode.");
         }
     }
-}
+}*/
 
 
 

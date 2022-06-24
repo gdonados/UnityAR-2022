@@ -6,13 +6,24 @@ using UnityEngine.UI;
 public class TrackedObjectManager : MonoBehaviour
 {
     [SerializeField]
-    private float x;
+    private float globalx;
     [SerializeField]
-    private float y;
+    private float globaly;
     [SerializeField]
-    private float width;
+    private float globalWidth;
     [SerializeField]
-    private float height;
+    private float globalHeight;
+
+    [SerializeField]
+    private float newx;
+    [SerializeField]
+    private float newy;
+    [SerializeField]
+    private float newWidth;
+    [SerializeField]
+    private float newHeight;
+
+    public bool newDataReceieved;
 
     public bool UpdateBoundingBoxes;
 
@@ -23,8 +34,8 @@ public class TrackedObjectManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        width = 420f;
-        height = 421f;
+        globalWidth = 420f;
+        globalHeight = 421f;
         UpdateBoundingBoxes = true;
         foreach (Transform child in transform)
         {
@@ -41,20 +52,15 @@ public class TrackedObjectManager : MonoBehaviour
 
         if (UpdateBoundingBoxes == true)
         {
-            transform.GetChild(0).GetComponent<RectTransform>().localPosition = new Vector2(x - transform.GetComponent<RectTransform>().rect.width / 2,
-                                                                                            transform.GetComponent<RectTransform>().rect.height -
-                                                                                            y - transform.GetComponent<RectTransform>().rect.height / 2);
-            transform.GetChild(0).GetComponent<RectTransform>().sizeDelta = new Vector2(width, height);
-            foreach (Transform child in transform)
+            if(newDataReceieved)
             {
-                //boundingBoxImage.rectTransform.position = new Vector3(mop.GetBoundingBoxDimensions_Rect().x, mop.GetBoundingBoxDimensions_Rect().y, 0);
-                //child.GetComponent<RectTransform>().position = new Vector2(bbt.mop.objectRect.x, bbt.mop.objectRect.y);
-                //child.GetComponent<RectTransform>().sizeDelta = new Vector2(bbt.mop.objectRect.width, bbt.mop.objectRect.height);
-
-
-                //  .position = new Vector3(bbt.mop.GetScreenspacePosition().x, bbt.mop.GetScreenspacePosition().y, 0);
-                //bbt.boundingBoxImage.rectTransform.sizeDelta = new Vector2(bbt.mop.GetBoundingBoxDimensions_Rect().width, bbt.mop.GetBoundingBoxDimensions_Rect().height);
+                StartCoroutine(PanBB(globalx, globaly, globalWidth, globalHeight, newx, newy, newWidth, newHeight, 1f));//1 second interval
+                newDataReceieved = false;
             }
+            transform.GetChild(0).GetComponent<RectTransform>().localPosition = new Vector2(globalx - transform.GetComponent<RectTransform>().rect.width / 2,
+                                                                                            transform.GetComponent<RectTransform>().rect.height -
+                                                                                            globaly - transform.GetComponent<RectTransform>().rect.height / 2);
+            transform.GetChild(0).GetComponent<RectTransform>().sizeDelta = new Vector2(globalWidth, globalHeight);
 
         }
 
@@ -72,29 +78,51 @@ public class TrackedObjectManager : MonoBehaviour
         }
     }*/
 
-    public void setBoundingBox(string newx, string newy, string newWidth, string newHeight)
+    public void setBoundingBox(string inx, string iny, string inWidth, string inHeight, string label)
     {
         //Debug.Log("setting new values");
         //Debug.Log(newx);
         //Debug.Log(newy);
-
+        Debug.Log(label);
         //Debug.Log(newWidth);
         //Debug.Log(newHeight);
+        if (label.Trim() == "1")
+        {
+            newDataReceieved = true;
 
-        float.TryParse(newx.Trim(), out x);
-        float.TryParse(newy.Trim(), out y);
+            float.TryParse(inx.Trim(), out newx);
+            float.TryParse(iny.Trim(), out newy);
 
-        float.TryParse(newWidth.Trim(), out width);
-        float.TryParse(newHeight.Trim(), out height);
+            float.TryParse(inWidth.Trim(), out newWidth);
+            float.TryParse(inHeight.Trim(), out newHeight);
 
-        Debug.Log("Left is: " + x);
-        Debug.Log("Bottom is: " + y);
+            Debug.Log("Left is: " + newx);
+            Debug.Log("Bottom is: " + newy);
 
-        Debug.Log("Width is: " + width);
-        Debug.Log("Height is " + height);
+            Debug.Log("Width is: " + newWidth);
+            Debug.Log("Height is " + newHeight);
+        }
         //Debug.Log("after");
 
         //transform.GetChild(0).GetComponent<RectTransform>().anchoredPosition = new Vector2(int.Parse(x), int.Parse(y));
         //transform.GetChild(0).GetComponent<RectTransform>().sizeDelta = new Vector2(int.Parse(width), int.Parse(height));
+    }
+    public IEnumerator PanBB(float oldx, float oldy, float oldwidth, float oldheight, float inNewx, float inNewy, float inNewwidth, float inNewheight, float interval)
+    {
+        float interpolant;
+        //interval is time in seconds that this for loop will complete, time invariant.
+        for (interpolant = 0f; interpolant < 1f; interpolant += Time.deltaTime / interval)//60 fps, time.delta = 1/60, 60 frames 
+        {
+            globalx = Mathf.Lerp(oldx, inNewx, interpolant);
+            globaly = Mathf.Lerp(oldy, inNewy, interpolant);
+            globalWidth = Mathf.Lerp(oldwidth, inNewwidth, interpolant);
+            globalHeight = Mathf.Lerp(oldheight, inNewheight, interpolant);
+
+            yield return null;
+        }
+        globalx = inNewx;
+        globaly = inNewy;
+        globalWidth = inNewwidth;
+        globalHeight = inNewheight;
     }
 }

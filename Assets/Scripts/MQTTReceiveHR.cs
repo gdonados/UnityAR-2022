@@ -12,13 +12,17 @@ public class MQTTReceiveHR : MonoBehaviour
     void Start()
     {
         HR = transform.GetComponent<TextMeshProUGUI>();
+        myHRString = "";
     }
 
     // Update is called once per frame
     void Update()
     {
         HR.text = "HR: " + myHRString;
-        HR.color = Color.Lerp(Color.white, Color.red, 1f - (120f - float.Parse(myHRString)) / 50f);//120 is max, 50 is range.
+        if (myHRString != "")
+        {
+            HR.color = Color.Lerp(Color.white, Color.red, 1f - (120f - float.Parse(myHRString)) / 50f);//120 is max, 50 is range.
+        }
     }
 
     public void SetHR(string HRString)
