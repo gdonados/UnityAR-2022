@@ -14,7 +14,7 @@ public class PhotoCaptureExample : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        cameraResolution = PhotoCapture.SupportedResolutions.OrderByDescending((res) => res.width * res.height).First();
+        cameraResolution = PhotoCapture.SupportedResolutions.OrderByDescending((res) => res.width * res.height).Last();
         targetTexture = new Texture2D(cameraResolution.width, cameraResolution.height);
     }
 
@@ -44,8 +44,8 @@ public class PhotoCaptureExample : MonoBehaviour
             photoCaptureObject = captureObject;
             CameraParameters cameraParameters = new CameraParameters();
             cameraParameters.hologramOpacity = 0.0f;
-            cameraParameters.cameraResolutionWidth = cameraResolution.width;
-            cameraParameters.cameraResolutionHeight = cameraResolution.height;
+            cameraParameters.cameraResolutionWidth = 1280;//cameraResolution.width;
+            cameraParameters.cameraResolutionHeight = 720;// cameraResolution.height;
             cameraParameters.pixelFormat = CapturePixelFormat.BGRA32;
 
             // Activate the camera
