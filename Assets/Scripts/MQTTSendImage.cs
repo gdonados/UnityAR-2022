@@ -38,7 +38,7 @@ public class MQTTSendImage : MonoBehaviour
         //This will allow us to send another image to the python IDE for processing
 
         //----------
-        String ValidIP = "10.38.4.212"; //########### This needs to be updated to current ip when testing!
+        String ValidIP = "150.250.106.69"; //########### This needs to be updated to current ip when testing!
 
         factory = new MqttFactory();
         mqttClient = factory.CreateMqttClient();
